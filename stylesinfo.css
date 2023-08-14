@@ -1,0 +1,41 @@
+        
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-color: #A4BEA9;
+        }
+        .title h1{
+            text-align: center;
+            background-color: #FAB36C;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .box {
+            background-color: #8F9B6E;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 50px;
+            border-radius: 5px;
+            transition: background-color 0.3s, transform 0.2s;
+            font-family: sans-serif;
+
+        }
+
+        /* Efecto "hover" para las "box" */
+        .box:hover {
+            background-color: #DED3C9;
+            transform: scale(1.05);
+        }
+
+        /* Estilo para el encabezado */
+        h1 {
+            text-align: center;
+            background-color: #C2B1A2;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        ul{
+            padding-left: 37px;
+        }
