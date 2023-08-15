@@ -3,17 +3,22 @@
             margin: 0px;
             padding: 0px;
         }
+
+        p{
+            margin: 10px;
+        }
         body{
-            background-color: #A4BEA9;
+            background-color: #bdcdd0;
         }
         .title h1{
             text-align: center;
-            background-color: #FAB36C;
+            background-color:#768d92 ;
             padding: 15px;
             border-radius: 5px;
         }
         .box {
-            background-color: #8F9B6E;
+            background-color:#8ba6ac;
+    
             border: 1px solid #ccc;
             padding: 10px;
             margin: 50px;
@@ -23,16 +28,20 @@
 
         }
 
+        #description:hover{
+            background-color: red;
+        }
         /* Efecto "hover" para las "box" */
         .box:hover {
-            background-color: #DED3C9;
+            background-color: #f9e14b;
             transform: scale(1.05);
         }
 
         /* Estilo para el encabezado */
         h1 {
             text-align: center;
-            background-color: #C2B1A2;
+            background-color:#768d92;
+            background-color: ;
             padding: 15px;
             border-radius: 5px;
         }
