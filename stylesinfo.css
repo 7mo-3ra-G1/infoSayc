@@ -33,8 +33,13 @@
         }
         /* Efecto "hover" para las "box" */
         .box:hover {
-            background-color: orange;
+            background-color: #8000808f;
             transform: scale(1.05);
+            opacity: 1;
+            opacity: 0.9;
+            cursor: pointer;
+            box-shadow: 10px 10px 10px 1px;
+            border: 1px solid;
         }
         #uno:hover{
             background-color:green;
