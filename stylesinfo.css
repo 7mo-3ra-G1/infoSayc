@@ -33,7 +33,15 @@
         }
         /* Efecto "hover" para las "box" */
         .box:hover {
-            background-color: #f9e14b;
+            background-color: orange;
+            transform: scale(1.05);
+        }
+        #uno:hover{
+            background-color:green;
+            transform: scale(1.05);
+        }
+        #dos:hover{
+            background-color:purple;
             transform: scale(1.05);
         }
 
