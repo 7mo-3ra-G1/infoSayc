@@ -1,63 +1,137 @@
-        
-        *{
-            margin: 0px;
-            padding: 0px;
-        }
+/* Reset some default styles for consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the entire page */
+  /* Set a background gradient for the entire page */
+/* Set a background gradient for the entire page */
+body {
+    background: linear-gradient(to bottom,#158a45,  #95f173);
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
 
-        p{
-            margin: 10px;
-        }
-        body{
-            background-color: #bdcdd0;
-        }
-        .title h1{
-            text-align: center;
-            background-color:#768d92 ;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        .box {
-            background-color:#8ba6ac;
+  /* Style the header/title section */
+  .title {
+    text-align: center;
+    background-color: #349e6c;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 2rem; /* Increase font size */
+    letter-spacing: 2px; /* Add letter spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
     
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 50px;
-            border-radius: 5px;
-            transition: background-color 0.3s, transform 0.2s;
-            font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-        }
+  }
+  .title img{
+    border-radius: 100%;
+    width: 10%;
+    margin: 10px;
+  }
+  /* Style the main content boxes */
+  .box {
+    background-color: #a2d7c8;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 50px;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+    font-family: sans-serif;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect for the description box */
+  #description:hover {
+    background-color: #f8e919;
+  }
+  
+  /* Hover effect for all boxes */
+  .box:hover {
+    background-color: #ff9b04;
+    transform: scale(1.05);
+    opacity: 0.9;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    border: 1px solid #d0d5d5;
+  }
+  
+  /* Hover effect for #uno */
+  #uno:hover {
+    background-color: #f06c6c;
+    transform: scale(1.05);
+  }
+  
+  /* Hover effect for #dos */
+  #dos:hover {
+    background-color: #d0a1eb;
+    transform: scale(1.05);
+  }
+  
+  /* Style for headings */
+    h2 {
+    text-align: center;
+    background-color: #349e6c;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  
+  /* Adjust padding for unordered list */
+  ul {
+    padding-left: 20px;
+  }
+  
+  /* Add a subtle gradient to links */
+  a {
+    color: #2ecc71;
+    text-decoration: none;
+    background: linear-gradient(to bottom, #2ecc71, #27ae60);
+    padding: 2px 4px;
+    border-radius: 3px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  /* Hover effect for links */
+  a:hover {
+    background: linear-gradient(to bottom, #27ae60, #239a53);
+    color: #fff;
+  }
+  p{
+    margin-top: 10px;
+  }
+  .imagen {
+    text-align: center; /* Centra la imagen horizontalmente */
+    margin:auto;
+    margin-top: 20px; /* Espaciado superior */
+  }
+  
+  .imagen img {
+    display:flex;
+    margin-bottom: 50px;
+    justify-content: center;
+    max-width: 500px; /* Ajusta el ancho máximo de la imagen al contenedor */
+    height: 350px; /* Mantiene la proporción de aspecto de la imagen */
+    border-radius: 10px; /* Agrega bordes redondeados a la imagen */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega una sombra suave a la imagen */
+  }
 
-        #description:hover{
-            background-color: red;
-        }
-        /* Efecto "hover" para las "box" */
-        .box:hover {
-            background-color: #8000808f;
-            transform: scale(1.05);
-            opacity: 1;
-            opacity: 0.9;
-            cursor: pointer;
-            box-shadow: 10px 10px 10px 1px;
-            border: 1px solid;
-        }
-        #uno:hover{
-            background-color:green;
-            transform: scale(1.05);
-        }
-        #dos:hover{
-            background-color:purple;
-            transform: scale(1.05);
-        }
-
-        /* Estilo para el encabezado */
-        h1 {
-            text-align: center;
-            background-color:#768d92;
-            background-color: ;
-            padding: 15px;
-            border-radius: 5px;
-        }
-        ul{
-            padding-left: 37px;
-        }
+  .carousel-item .imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del carrusel a la altura de la ventana (pantalla completa) */
+  }
+  
+  .carousel-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Ajusta la imagen para que se ajuste al contenedor sin distorsionarla */
+  }
+ 

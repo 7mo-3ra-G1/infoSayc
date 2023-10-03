@@ -1,17 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SAyC - Semana de las Artes y las Ciencias</title>
+    <link rel="stylesheet" type="text/css" href="stylesinfo.css">
+    <link rel="shortcut icon" href="icon.jfif" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <script src="API.js"></script>
-    <button onclick="boton(1)">hola</button>
-    <button onclick="boton(2)">hola</button>
-    <button onclick="boton(3)">hola</button>
-    <button onclick="boton(4)">hola</button>
+ 
+  
+    <div class="title"> 
+        <h1> SAyC </h1>
+        
+            <img src="icon.jfif" alt="">
+        
+    </div>
+    <div class="box" id="description">
+        <h2> Semana de las Artes y las Ciencias</h2>
+        <p>
+            La Semana de las Artes y las Ciencias es un evento anual en nuestro colegio donde los alumnos tienen la oportunidad de mostrar sus proyectos y habilidades en diversas modalidades, incluyendo Arte, Sociales, Economía, Informática y Alimentos.
+        </p>
+    </div>
+  
 
+
+    <div class="box">
+        <h2>Objetivo del evento</h2>
+        <p>
+            El objetivo de la SAyC es demostrar lo aprendido mediante proyectos, actuaciones, talleres, entre otras actividades. Los alumnos, junto con los profesores, organizan y llevan a cabo estas actividades durante tres días.
+        </p>
+    </div>
+
+    <div class="box" id="uno">
+        <h2>Organización</h2>
+        <p>
+            Para garantizar un desarrollo ordenado del evento, se asignan dos guías identificados por un carnet y una remera naranja a cada curso. Se brinda una planilla con horarios y se utiliza todo el espacio disponible en la escuela para albergar las actividades.
+        </p>
+    </div>
+
+    <div class="box" id="dos">
+        <h2>Características de la aplicación web</h2>
+        <ul>
+            <li>Mapeo de la escuela con los salones disponibles y sus capacidades.</li>
+            <li>Horarios y detalles de todas las actividades programadas.</li>
+            <li>Asignación de guías a cada curso y actividad.</li>
+            <li>Información sobre el número de integrantes de cada grupo participante.</li>
+            <li>Notificaciones de cambios en tiempo real.</li>
+            <li>Reasignación de salones en caso de cancelaciones.</li>
+        </ul>
+    </div>
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active imagen">
+            <img src="sayc1.jpg" class="d-block w-100" alt="sayc.logo.PNG">
+          </div>
+          <div class="carousel-item imagen ">
+            <img src="actividades.jpg" class="d-block w-100" alt="sayc.logo.PNG">
+          </div>
+          <div class="carousel-item imagen">
+            <img src="comeverga.jpg" class="d-block w-100 " alt="sayc.logo.PNG">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 </body>
-</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
