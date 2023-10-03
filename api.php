@@ -3,22 +3,37 @@
     include "functions.php";
     
     switch ($id) {
-        case '1':
+        case 'GetAula':
             $aulas = getAula();
             print json_encode($aulas->fetch_assoc());
             break;
-        case '2':
-            print json_encode("cronograma segun cursos");
+        case 'GetCurso':
+            $aulas = getCurso();
+            print json_encode($aulas->fetch_assoc());
             break;
-        case '3':
-            print json_encode("dado un curso saber en donde esta");
+        case 'GetCronograma':
+            $aulas = getCronograma();
+            print json_encode($aulas->fetch_assoc());
             break;
-        case '4':
-            print json_encode("actividades disponibles");
+        case 'GetCategoria':
+            $aulas = getCategoria();
+            print json_encode($aulas->fetch_assoc());
+            break;
+        case 'GetGuias':
+            $aulas = getGuias();
+            print json_encode($aulas->fetch_assoc());
+            break;
+        case 'GetTalleristas':
+            $aulas = getTalleristas();
+            print json_encode($aulas->fetch_assoc());
+            break;
+        case 'GetGuiaCurso':
+            $aulas = getGuiaCurso();
+            print json_encode($aulas->fetch_assoc());
             break;
                                 
         default:
-            print json_encode("no eligio una opcion");
+            print json_encode(0);
             break;
     }
 ?>
