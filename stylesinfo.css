@@ -89,14 +89,7 @@ body {
   }
   
   /* Add a subtle gradient to links */
-  a {
-    color: #2ecc71;
-    text-decoration: none;
-    background: linear-gradient(to bottom, #2ecc71, #27ae60);
-    padding: 2px 4px;
-    border-radius: 3px;
-    transition: background 0.3s, color 0.3s;
-  }
+  
   
   /* Hover effect for links */
   a:hover {
@@ -135,3 +128,27 @@ body {
     object-fit: contain; /* Ajusta la imagen para que se ajuste al contenedor sin distorsionarla */
   }
  
+  a{
+    text-decoration: none;
+    color:black;
+    text-align: center;
+  }
+  .custom-size {
+    width: 100px; /* Tamaño personalizado de las imágenes */
+    height: 100px; /* Tamaño personalizado de las imágenes */
+    transition: transform 0.2s ease-in-out; /* Efecto de escala al pasar el mouse */
+}
+
+.social-username {
+    text-align: center; /* Centra el nombre de usuario */
+    font-size: 18px; /* Tamaño de fuente del nombre de usuario */
+    margin-top: 10px; /* Espacio superior entre la imagen y el nombre de usuario */
+}
+
+.social-username:hover {
+    color: #f00; /* Cambia el color del nombre de usuario al pasar el mouse */
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al pasar el mouse */
+}
