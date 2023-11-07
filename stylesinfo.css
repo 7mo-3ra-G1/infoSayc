@@ -4,6 +4,17 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+
+.sayctitle{
+  margin: auto;
+}
+
+.link{
+    font-size: small;
+    color: #d0d5d5;
+    padding: 0 20px 0;
+}
   
   /* Set a background color for the entire page */
   /* Set a background gradient for the entire page */
