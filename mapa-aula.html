@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa del Colegio</title>
+    <link rel="stylesheet" href="aulas.css">
+</head>
+<body>
+    <div class="floor-selector">
+        <button class="floor-btn" id="planta-baja">Planta Baja</button>
+        <button class="floor-btn" id="primer-piso">Primer Piso</button>
+        <button class="floor-btn" id="segundo-piso">Segundo Piso</button>
+    </div>
+
+    <div class="map-legend">
+        <div class="legend-item">
+            <div class="legend-marker verde"></div>
+            <div class="legend-text">Aula Habilitada</div>
+        </div>
+        <div class="legend-item">
+            <div class="legend-marker roja"></div>
+            <div class="legend-text">Aula Ocupada</div>
+        </div>
+    </div>
+
+
+    
+    <div class="map-container" id="planta-baja-map">
+        
+        <div class="room" id="aula-1">Aula 1</div>
+        <div class="room" id="aula-2">Teatro</div>
+        <div class="room" id="aula-3">Aula 3</div>
+        <div class="room" id="aula-4">Aula 4</div>
+        <div class="room" id="aula-5">Biblioteca</div>
+        <div class="room" id="aula-6">Aula 5</div>
+        <div class="room" id="aula-7">Gimnasio</div>
+
+    </div>
+
+    <div class="map-container" id="primer-piso-map">
+      
+        <div class="room" id="aula-8">Aula 6</div>
+        <div class="room" id="aula-9">Aula 7</div>
+        <div class="room" id="aula-10">Aula 8</div>
+        <div class="room" id="aula-11">Aula 9</div>
+        <div class="room" id="aula-12">Aula 10</div>
+        <div class="room" id="aula-13">Aula 11</div>
+        <div class="room" id="aula-14">Aula 12</div>
+        <div class="room" id="aula-15">Sala 1</div>
+        <div class="room" id="aula-16">Sala 2</div>
+        <div class="room" id="aula-17">Sala 3</div>
+        <div class="room" id="aula-18">Sala 4</div>
+
+
+    </div>
+
+
+    <div class="map-container" id="segundo-piso-map">
+   
+        <div class="room" id="aula-19">Aula 18</div>
+        <div class="room" id="aula-20">Aula 19</div>
+        <div class="room" id="aula-21">Aula 20</div>
+        <div class="room" id="aula-22">Aula 21</div>
+        <div class="room" id="aula-23">Aula 22</div>
+    </div>
+    
+
+
+    
+    <script src="map-aula.js"></script>
+</body>
+</html>

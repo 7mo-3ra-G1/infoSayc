@@ -1,0 +1,294 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #2D2D30;
+}
+
+.floor-selector {
+    margin: 20px;
+}
+
+.map-legend {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.legend-item {
+    font-family: sans-serif;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.legend-marker {
+    font-family: sans-serif;
+    color: whitesmoke;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.verde {
+    background-color: greenyellow;
+}
+
+.roja {
+    background-color: red;
+}
+
+.floor-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.map-container {
+    display: none;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+/* .room {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+ */
+.room {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+}
+.room:hover {
+    background-color: #ccc;
+}
+
+#aula-1 {
+    top: 150px;
+    left: 50px;
+    background-color: red;
+    
+}
+
+#aula-2 {
+    top: 150px;
+    left: 300px;
+    background-color: greenyellow;
+}
+
+#aula-3 {
+    top: 150px;
+    left: 430px;
+    background-color: red;
+}
+
+#aula-4 {
+    top: 150px;
+    left: 560px;
+    background-color: red;
+}
+
+#aula-5 {
+    top: 150px;
+    left: 690px;
+    background-color: greenyellow;
+}
+
+#aula-6 {
+    top: 400px;
+    left: 300px;
+    background-color: greenyellow;
+}
+
+#aula-7 {
+    top: 400px;
+    left: 690px;
+    background-color: greenyellow;
+}
+
+#aula-8 {
+    top: 150px;
+    left: 950px;
+    background-color: greenyellow;
+}
+
+#aula-9 {
+    top: 150px;
+    left: 820px;
+    background-color: greenyellow;
+}
+
+#aula-10 {
+    top: 150px;
+    left: 690px;
+    background-color: greenyellow;
+}
+
+#aula-11 {
+    top: 150px;
+    left: 560px;
+    background-color: greenyellow;
+}
+
+#aula-12 {
+    top: 150px;
+    left: 300px;
+    background-color: greenyellow;
+}
+
+#aula-13 {
+    top: 150px;
+    left: 170px;
+    background-color: greenyellow;
+}
+
+#aula-14 {
+    top: 150px;
+    left: 40px;
+    background-color: greenyellow;
+}
+
+#aula-15 {
+    top: 350px;
+    left: 250px;
+    
+    background-color: greenyellow;
+}
+
+#aula-16 {
+    top: 550px;
+    left: 250px;
+    background-color: greenyellow;
+}
+
+#aula-17 {
+    top: 350px;
+    left: 380px;
+    background-color: greenyellow;
+}
+
+#aula-18 {
+    top: 480px;
+    left: 380px;
+    background-color: greenyellow;
+}
+
+#aula-19 {
+    top: 150px;
+    left: 40px;
+    background-color: greenyellow;
+}
+
+#aula-20 {
+    top: 150px;
+    left: 170px;
+    background-color: greenyellow;
+}
+
+#aula-21 {
+    top: 150px;
+    left: 300px;
+    background-color: greenyellow;
+}
+
+#aula-22 {
+    top: 150px;
+    left: 430px;
+    background-color: greenyellow;
+}
+
+#aula-23 {
+    top: 150px;
+    left: 560px;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+#aula-5.roja {
+    background-color: red;
+}
+#aula-4.verde {
+    background-color: greenyellow;
+}
+
+#aula-4.roja {
+    background-color: red;|
+}
+#aula-4.verde {
+    background-color: greenyellow;
+}
+
+#aula-3.roja {
+    background-color: red;
+}
+#aula-3.verde {
+    background-color: greenyellow;
+}
+
+#aula-2.roja {
+    background-color: red;
+}
+#aula-2.verde {
+    background-color: greenyellow;
+}
+
+#aula-1.roja {
+    background-color: red;
+}
+#aula-1.verde {
+    background-color: greenyellow;
+} */
